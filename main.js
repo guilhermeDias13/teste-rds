@@ -9,7 +9,7 @@ const sequelize = new Sequelize({
   username: process.env.DB_USER,
   password: process.env.DB_PASS,
   database: process.env.DB_NAME,
-  schema: "schema234"
+  schema: process.env.DB_SCHEMA
 });
 
 // Define the model
